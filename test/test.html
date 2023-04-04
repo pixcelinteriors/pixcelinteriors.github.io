@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="est.css">
+</head>
+<style>
+  .content{
+    width: 60%;
+    height: 120px;
+    background-color: yellow;
+    text-align: center;
+    color: black;
+    margin: auto;
+    position: relative;
+  }
+  .inter{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    background-color: blue;
+  }
+</style>
+<body>
+  <div class="content">
+    one
+    <div class="inter">two</div>
+  </div>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.content').hover(
+function(){
+$('.inter').fadeIn();
+},
+function(){
+$('.inter').fadeOut();
+},
+);
+});
+  </script>
+  <!-------
+  <div class="nav">
+    <div class="logo" >
+      <p>Pixcel <br>Interiors</p>
+      <span></span>
+      <div class="ddiq">
+        <p>Design <br>Decor <br>Innovation <br>Quality</p>
+      </div>
+    </div>
+      <input type="checkbox" id="nav-check">
+   
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      
+      <div class="nav-links">
+
+        <a class="active" href="./index.html" >home</a>
+        <a class="active" href="./aboutus.html" >About</a>
+      
+        <a class="active" id="portfolio" href="./portfolio.html" >portfolio</a>
+        
+
+        
+        <a class="active" href="./contacts.html" >contact us</a>
+      </div>
+      <ul class="port">
+        <h2>projects</h2>
+      <div id="myBtnContainer">
+        <button class="btn actives" id="show-all" onclick="filterSelection('all')"> show all</button><br>
+        <button class="btn" onclick="filterSelection('hall')">hall</button>
+        <button class="btn" onclick="filterSelection('tv')">tv unit</button>
+        <button class="btn" onclick="filterSelection('kitchen')"> kitchen</button>
+        <button class="btn" onclick="filterSelection('pooja')">pooja unit</button>
+        <button class="btn" onclick="filterSelection('room')">master bedroom</button>
+        <button class="btn" onclick="filterSelection('kids')">kids room</button>
+        <button class="btn" onclick="filterSelection('wardrobe')">wardrobe</button>
+        <button class="btn" onclick="filterSelection('shoe-rack')">shoe rack</button>
+        <button class="btn" onclick="filterSelection('book')">book shelf</button>
+      </div>
+      
+      </ul>
+    </div>
+  ---->
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html> 
