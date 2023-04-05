@@ -416,7 +416,7 @@ h1{
       width: 300px;
       height: 200px;
       border-radius: 15px;  
-      margin-left: 30%;
+      margin-left: 15%;
   }
   .keypoint{
     flex-direction: column;
@@ -439,8 +439,8 @@ h3{
     font-family: 'Major Mono Display', monospace;
 }
 .about-img2{
-    margin-top: -1150px;
-    margin-left: 30%;
+    margin-top: -950px;
+    margin-left: 15%;
 }
 
 .about-img2 img{

@@ -495,7 +495,7 @@ transform: scaleX(1);
       .container .contactForm .inputBox
       {
         position: relative;
-        width: 100%;
+        width: 200%;
         margin-top: 20px;
       }
       .container .contactForm .inputBox input,
