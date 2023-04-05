@@ -259,6 +259,7 @@ transform: scaleX(1);
     .location-map{
       flex-direction: column;
       padding-top: 5%;
+      margin-left: 10%;
     }
     .visit-text{
       margin-top: 5%;
@@ -448,7 +449,7 @@ transform: scaleX(1);
 
     .contact{
         position: relative;
-        margin-top: -150%;
+        margin-top: -130%;
       }
       
       .contact .content p
@@ -494,7 +495,7 @@ transform: scaleX(1);
       .container .contactForm .inputBox
       {
         position: relative;
-        width: 200%;
+        width: 100%;
         margin-top: 20px;
       }
       .container .contactForm .inputBox input,
