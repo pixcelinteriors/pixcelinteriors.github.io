@@ -231,10 +231,16 @@ a{
   font-size: 60px;
 }
 .home .background{
-  margin-top: -45%;
+  margin-top: -40%;
   margin-left: 40%;
   margin-bottom: 2%;
 }
+.background img{
+  width: 120%;
+  
+}
+
+
 .recents{
   margin-top: 2%;
 
@@ -957,7 +963,15 @@ img {vertical-align: middle;}
     font-weight: bolder;
     margin-left: 0%;
   }
-
+  .text1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+      font-family: myfont;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 0%;
+  }
   .text2 {
     text-align: center;
     color: rgb(0, 0, 0);

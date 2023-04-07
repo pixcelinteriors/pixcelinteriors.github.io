@@ -40,15 +40,17 @@ h1{
 .container1 p{
     margin-top: 5%;
     font-size: 17px;
-    text-align: left;
+    text-align: justify;
+    text-justify: inter-word;
     padding: 0px;
     line-height: 25px;
     font-weight: lighter;
     font-family: myfont;
+    margin-left: 5%;
 }
 
 .about-img img{
-    margin-top: 20%;
+    margin-top: 15%;
     width: 550px;
     height: 300px;
     border-radius: 15px;  
@@ -65,6 +67,10 @@ h1{
     line-height: 25px;
     margin-left: 600px;
     font-family: myfont;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 0.5%;
+    margin-right: 3%;
 }
 
 h3{
@@ -82,7 +88,7 @@ h3{
 .about-img2 img{
     width: 500px; 
     height: 300px;
-    margin-top: 45%;
+    margin-top: 44%;
     margin-left: 3%;
     border-radius: 15px;  
     transition: transform .2s;  
@@ -407,7 +413,10 @@ h1{
   .container1 p{
       margin-top: 5%;
       font-size: 13px;
-      text-align: left;
+      text-align: justify;
+      text-justify: inter-word;
+      margin-left: 2%;
+      margin-right: 2%;
       padding: 0px;
       line-height: 18px;
       font-weight: lighter;
@@ -424,11 +433,12 @@ h1{
     flex-direction: column;
   }
   .container2 p{
-    text-align: left;
-    font-size: 13px;
+    text-align: justify;
+    text-justify: inter-word;    font-size: 13px;
     padding: 0px;
     line-height: 18px;
-    margin-left: 3px;
+    margin-left: 2%;
+    margin-right: 2%;
     font-family: myfont;
 }
 
