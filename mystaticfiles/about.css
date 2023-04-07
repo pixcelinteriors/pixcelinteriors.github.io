@@ -280,6 +280,14 @@ transform: scaleX(1);
   margin-bottom: 3%;
 }
 
+#show{
+
+  color: #000;
+  font-family: myfont;
+font-size: 17px;
+margin-top: 2%;
+text-align: center;
+}
 
 
 /*          @media 600px                       */
@@ -486,6 +494,14 @@ h3{
 center h2{
   font-size: 12px;
   margin-top: 3%;
+}
+#show{
+
+  color: #000;
+  font-family: myfont;
+font-size: 12px;
+margin-top: 2%;
+text-align: center;
 }
 }
 

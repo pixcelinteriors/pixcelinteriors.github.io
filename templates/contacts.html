@@ -58,10 +58,12 @@
     </div>
     <div class="container">
         <div class="contactForm">
-            <form action="https://formspree.io/f/mzbqjwab" method="post">
+            <form action="https://formspree.io/f/mzbqjwab" method="post" id="myForm">
                 <h2>Send Message</h2>
+                <span id="show"></span>
                 <div class="inputBox">
-                  <input type="text" name="Name" required="required">
+
+                  <input type="text" id="name" name="Name" required="required">
                   <span>Full Name*</span>
                 </div>
                 <div class="inputBox">
@@ -73,7 +75,7 @@
                   <span>Type your message........</span>
                 </div>
                 
-                    <input type="submit" class="submit" value="Reach Us">
+                    <input type="submit" class="submit" onclick="showName()" value="Reach Us">
         
             </form>
         </div>
@@ -101,7 +103,12 @@
     <p style="margin-right: 5%; text-transform: capitalize;">Copyright &copy; 2023 Pixcel Interiors</p>
     <a href="privacy.html" style="text-decoration: none;">Privacy & Policy</a>
 </footer>
-
+<script>
+  function showName(e){
+    var firstName= document.getElementById("name").value;
+    document.getElementById("show").innerText = "Hey "+ firstName+ " We received your message";        
+}
+</script>
 <!----
         <section class="contact">
             <div class="content">

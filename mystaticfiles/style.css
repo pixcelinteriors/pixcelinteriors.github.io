@@ -289,7 +289,7 @@ a{
 }
 
 .text {
-  text-align: center;
+  text-align: left;
   font-size: 16px;
     font-family: myfont;
   font-size: 20px;
@@ -845,13 +845,15 @@ img {vertical-align: middle;}
   padding-left: 17%;
 }
   .home .background{
-  margin-top: -25%;
-  margin-left: 2%;
+    
+  margin-top: -10%;
   margin-bottom: 10%;
+  margin-left: 0%;
+    padding-left: 10%;
+
   }
   .background img{
-    width: 105%;
-    height: 105%;
+    width: 150%;
   }
 
   .recents{
@@ -902,8 +904,8 @@ img {vertical-align: middle;}
   }
 
   .text {
-    text-align: center;
-    color: rgb(0, 0, 0);
+    text-align: left;
+    color: white;
     font-size: 16px;
       font-family: myfont;
     font-size: 17px;
