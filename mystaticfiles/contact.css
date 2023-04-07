@@ -8,7 +8,10 @@
     
     box-sizing: border-box;
 }
-
+@font-face {
+  font-family: myfont;
+  src: url(../Calibri/calibril.ttf);
+}
 
 :root {
     --orange: #EDCFA9;
@@ -121,7 +124,7 @@ transform: scaleX(1);
 }
 .visit-text span{
   text-align: center;
-  font-family: 'Major Mono Display', monospace;
+  font-family: myfont;
   font-size: 40px;
 }
 
@@ -132,7 +135,7 @@ transform: scaleX(1);
 
 .iframe{
   text-align: center;
-  font-family: 'Major Mono Display', monospace;
+  font-family: myfont;
   font-size: 18px;
   font-weight: bolder;
 }
@@ -267,7 +270,7 @@ transform: scaleX(1);
     }
     .visit-text span{
       text-align: center;
-      font-family: 'Major Mono Display', monospace;
+      font-family: myfont;
       font-size: 28px;
     }
     
@@ -276,7 +279,7 @@ transform: scaleX(1);
       width: 320px;
       height: 500px;
       text-align: center;
-      font-family: 'Major Mono Display', monospace;
+      font-family: myfont;
       font-size: 18px;
       font-weight: bolder;
       display: flex;
@@ -287,7 +290,7 @@ transform: scaleX(1);
       width: 300px;
       height: 500px;
       text-align: center;
-      font-family: 'Major Mono Display', monospace;
+      font-family: myfont;
       font-size: 18px;
       font-weight: bolder;
       display: flex;
@@ -310,7 +313,7 @@ transform: scaleX(1);
 .contact .content p
 {
   text-align: center;
-  font-family: 'Major Mono Display', monospace;
+  font-family: myfont;
     color: #000000;
     font-size: 26px;
     font-weight: 300;
@@ -336,7 +339,7 @@ transform: scaleX(1);
 }
 .container .contactForm h2
 {
-  font-family: 'Major Mono Display', monospace;
+  font-family: myfont;
     font-size: 27px;
     color: #333;
     text-align: left;
@@ -373,7 +376,7 @@ transform: scaleX(1);
     font-weight: bolder;
     color: #666;
     transform: 0.5s;
-    font-family: 'Major Mono Display', monospace;
+    font-family: myfont;
 
 }
 .container .contactForm .inputBox input:valid ~ span,
@@ -390,7 +393,7 @@ transform: scaleX(1);
   height: auto;
   padding: 2%;
   color: var(--white);
-  font-family: 'Major Mono Display', monospace;
+  font-family: myfont;
   cursor: pointer;
   font-weight: 600;
   border: none;
@@ -407,7 +410,7 @@ transform: scaleX(1);
 }
 .social h2{
   text-align: center;
-  font-family: 'Major Mono Display', monospace;
+  font-family: myfont;
   font-size: 21px;
   font-weight: bolder;
   margin-top: -10%;
@@ -454,7 +457,7 @@ transform: scaleX(1);
       
       .contact .content p
       { 
-      font-family: 'Major Mono Display', monospace;
+      font-family: myfont;
         color: #000000;
         font-size: 14px;
         font-weight: 600;
@@ -485,7 +488,7 @@ transform: scaleX(1);
       {
         width: 200%;
         text-align: center;
-        font-family: 'Major Mono Display', monospace;
+        font-family: myfont;
         font-size: 18px;
         color: #333;
         text-align: left;
@@ -522,7 +525,7 @@ transform: scaleX(1);
         font-weight: bolder;
         color: #666;
         transform: 0.5s;
-        font-family: 'Major Mono Display', monospace;
+        font-family: myfont;
       
       }
       .container .contactForm .inputBox input:valid ~ span,
@@ -539,7 +542,7 @@ transform: scaleX(1);
       height: auto;
       padding: 4.5%;
       color: var(--white);
-      font-family: 'Major Mono Display', monospace;
+      font-family: myfont;
       cursor: pointer;
       font-weight: 600;
       border: none;
@@ -557,7 +560,7 @@ transform: scaleX(1);
       
       .social h2{
         text-align: center;
-        font-family: 'Major Mono Display', monospace;
+        font-family: myfont;
         font-size: 14px;
         font-weight: bolder;
         margin-top: -60%;
@@ -575,7 +578,7 @@ transform: scaleX(1);
         font-size: 20px;
         color: rgb(0, 0, 0);
         border-radius: 5px;
-      
+      z-index: 5;
       }
       .social-icon a:nth-child(1):hover{
         background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);

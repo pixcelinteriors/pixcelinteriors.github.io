@@ -8,14 +8,17 @@
     margin: 0%;
     padding: 0%;
 }
-
+@font-face {
+  font-family: myfont;
+  src: url(../Calibri/calibril.ttf);
+}
 
 h1{
     text-align:center;
     font-size: 48px;
     font-weight: 500;
     margin-top: 3%;
-    font-family: 'Major Mono Display', monospace;
+    font-family: myfont;
 }
 .about{                                 
   margin-top: 45px;
@@ -32,16 +35,16 @@ h1{
     text-align: center;
     padding: 0px;
     line-height: 30px;
-    font-family: 'Major Mono Display', monospace;
+    font-family: myfont;
 }
 .container1 p{
     margin-top: 5%;
-    font-size: 14px;
+    font-size: 17px;
     text-align: left;
     padding: 0px;
     line-height: 25px;
     font-weight: lighter;
-    font-family: 'Roboto Mono', monospace;
+    font-family: myfont;
 }
 
 .about-img img{
@@ -57,11 +60,11 @@ h1{
 
 .container2 p{
     text-align: left;
-    font-size: 14px;
+    font-size: 17px;
     padding: 0px;
     line-height: 25px;
     margin-left: 600px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: myfont;
 }
 
 h3{
@@ -70,7 +73,7 @@ h3{
     margin-left: 750px;
     margin-top: 100px;
     margin-bottom: 3%;
-    font-family: 'Major Mono Display', monospace;
+    font-family: myfont;
 }
 .about-img2{
     margin-top: -900px;
@@ -265,7 +268,7 @@ transform: scaleX(1);
   margin-top: 4%;
 }
 .look p{
-  font-family: 'Major Mono Display', monospace;
+  font-family: myfont;
   text-align: center;
   font-weight: bolder;
   margin-bottom: 3%;
@@ -275,6 +278,26 @@ transform: scaleX(1);
 
 /*          @media 600px                       */
 @media (max-width:600px) {
+  .logo p{
+    font-family: 'Audiowide', cursive;
+    font-weight: bolder;
+    font-size: 17px;
+    padding-left: 2%;
+  }
+    .logo span{
+      width: 2px;
+      height: 40px;
+      background-color: #c56900;
+      margin-left: 3px;
+      margin-right: 3px;
+    }
+  
+    .ddiq p{
+      background-color: #ffffff;
+      font-family: sans-serif;
+      line-height: 10px;
+      font-size: 10px;
+    }
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
@@ -294,7 +317,7 @@ transform: scaleX(1);
     display: block;
     width: 25px;
     height: 6px;
-    margin-left: 55%;
+    margin-left: 5%;
     margin-right: 5%;
     border-top: 2px solid #000000;
   }
@@ -357,34 +380,13 @@ transform: scaleX(1);
       transform: scaleY(1);
   }
   
- 
-  .logo{
-    display: flex;
-  }
-  .logo p{
-    font-family: 'Orbitron', sans-serif;
-    font-weight: bolder;
-    font-size: 17px;
-  }
-    .logo span{
-      width: 2px;
-      height: 40px;
-      background-color: #c56900;
-    }
-  
-    .ddiq p{
-      background-color: #ffffff;
-      font-family: sans-serif;
-      line-height: 10px;
-      font-size: 10px;
-    }
 
 h1{
   text-align:center;
   font-size: 28px;
   font-weight: 500;
   margin-top: 3%;
-  font-family: 'Major Mono Display', monospace;
+  font-family: myfont;
 }
 .about{
   flex-direction: column;
@@ -400,16 +402,16 @@ h1{
       text-align: center;
       padding: 0px;
       line-height: 30px;
-      font-family: 'Major Mono Display', monospace;
+      font-family: myfont;
   }
   .container1 p{
       margin-top: 5%;
-      font-size: 12px;
+      font-size: 13px;
       text-align: left;
       padding: 0px;
       line-height: 18px;
       font-weight: lighter;
-      font-family: 'Roboto Mono', monospace;
+      font-family: myfont;
   }
   
   .about-img img{
@@ -423,11 +425,11 @@ h1{
   }
   .container2 p{
     text-align: left;
-    font-size: 12px;
+    font-size: 13px;
     padding: 0px;
     line-height: 18px;
     margin-left: 3px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: myfont;
 }
 
 h3{
@@ -436,7 +438,7 @@ h3{
     font-size: 25px;
     margin-left: 0;
     margin-bottom: 3%;
-    font-family: 'Major Mono Display', monospace;
+    font-family: myfont;
 }
 .about-img2{
     margin-top: -950px;
@@ -460,7 +462,7 @@ h3{
     margin-top: 15%;
   }
   .look p{
-    font-family: 'Major Mono Display', monospace;
+      font-family: myfont;
     text-align: center;
     font-weight: bolder;
     margin-bottom: 3%;
@@ -500,29 +502,7 @@ a{
 body { background-color: var(--white); 
 overflow-x: hidden;
 }
-.logo{
-  display: flex;
-}
-.logo p{
-  font-family: 'Audiowide', cursive;
-  font-weight: bolder;
-  font-size: 20px;
-  padding-left: 2%;
-}
-  .logo span{
-    width: 2px;
-    height: 47px;
-    background-color: #c56900;
-    margin-left: 3px;
-    margin-right: 3px;
-  }
 
-  .ddiq p{
-    background-color: #ffffff;
-    font-family: sans-serif;
-    line-height: 12px;
-    font-size: 10px;
-  }
   .nav {
     height: 50px;
     width: 100%;
@@ -702,7 +682,7 @@ a{
 .contact .content p
 {
   text-align: center;
-  font-family: 'Major Mono Display', monospace;
+  font-family: myfont;
     color: #000000;
     font-size: 26px;
     font-weight: 300;
@@ -728,7 +708,7 @@ a{
 }
 .container .contactForm h2
 {
-  font-family: 'Major Mono Display', monospace;
+  font-family: myfont;
     font-size: 27px;
     color: #333;
     text-align: left;
@@ -764,7 +744,7 @@ a{
     font-weight: bolder;
     color: #666;
     transform: 0.5s;
-    font-family: 'Major Mono Display', monospace;
+    font-family: myfont;
 
 }
 .container .contactForm .inputBox input:valid ~ span,
@@ -781,7 +761,7 @@ a{
   height: auto;
   padding: 2%;
   color: var(--white);
-  font-family: 'Major Mono Display', monospace;
+  font-family: myfont;
   cursor: pointer;
   font-weight: 600;
   border: none;
@@ -798,7 +778,7 @@ a{
 }
 .social h2{
   text-align: center;
-  font-family: 'Major Mono Display', monospace;
+  font-family: myfont;
   font-size: 21px;
   font-weight: bolder;
   margin-top: -10%;
@@ -845,7 +825,7 @@ a{
       
       .contact .content p
       { 
-      font-family: 'Major Mono Display', monospace;
+          font-family: myfont;
         color: #000000;
         font-size: 14px;
         font-weight: 600;
@@ -872,7 +852,7 @@ a{
       }
       .container .contactForm h2
       {
-      font-family: 'Major Mono Display', monospace;
+          font-family: myfont;
         font-size: 18px;
         color: #333;
         text-align: left;
@@ -908,7 +888,7 @@ a{
         font-weight: bolder;
         color: #666;
         transform: 0.5s;
-        font-family: 'Major Mono Display', monospace;
+          font-family: myfont;
       
       }
       .container .contactForm .inputBox input:valid ~ span,
@@ -925,7 +905,7 @@ a{
       height: auto;
       padding: 2.5%;
       color: var(--white);
-      font-family: 'Major Mono Display', monospace;
+          font-family: myfont;
       cursor: pointer;
       font-weight: 600;
       border: none;
@@ -943,7 +923,7 @@ a{
       
       .social h2{
         text-align: center;
-        font-family: 'Major Mono Display', monospace;
+          font-family: myfont;
         font-size: 14px;
         font-weight: bolder;
         margin-top: -50%;
@@ -961,7 +941,7 @@ a{
         font-size: 20px;
         color: rgb(0, 0, 0);
         border-radius: 5px;
-      
+      z-index: 5;
       }
       .social-icon a:nth-child(1):hover{
         background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
