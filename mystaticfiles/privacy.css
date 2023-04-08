@@ -9,8 +9,25 @@
     
     box-sizing: border-box;
 }
-
-
+@font-face {
+  font-family: myfont;
+  src: url(../Calibri/calibril.ttf);
+}
+h3, h4{
+  margin-top: 2%;
+  margin-left: 1%;
+  
+}
+p{
+margin-top: 12px;
+margin-left: 2%;
+margin-right: 2%;
+}
+*{
+text-align: justify;
+text-justify: inter-word;
+font-family: myfont;
+}
 :root {
     --orange: #EDCFA9;
     --white: #ffffff;
@@ -30,6 +47,8 @@ overflow-x: hidden;
   font-weight: bolder;
   font-size: 20px;
   padding-left: 2%;
+  margin-top: 0%;
+  
 }
   .logo span{
     width: 2px;
@@ -46,7 +65,7 @@ overflow-x: hidden;
     font-size: 10px;
   }
   .nav {
-    height: 50px;
+    height: 40px;
     width: 100%;
     position: relative;
   }
