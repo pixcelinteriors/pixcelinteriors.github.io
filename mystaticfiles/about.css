@@ -263,9 +263,9 @@ transform: scaleX(1);
 /* Closable button inside the image */
 .closebtn {
   position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
+  margin-top: -37%;
+  right: 11%;
+  color: rgb(0, 0, 0);
   font-size: 35px;
   cursor: pointer;
 }
